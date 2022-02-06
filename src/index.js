@@ -13,7 +13,7 @@ const swagger = require("./utils/swagger");
 //Importar la conexión a la base de datos
 require("./utils/db");
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 
 fastify.register(require("fastify-swagger"), swagger.options);
 //Creamos una ruta con el método get the fastify
